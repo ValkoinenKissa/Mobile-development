@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">contador</string>
+    <string name="textButton">+</string>
+</resources>
