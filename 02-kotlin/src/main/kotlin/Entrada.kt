@@ -23,6 +23,8 @@ fun main() {
     // saludar()
     // sumar(5, 8)
     alumnos()
+    saludar()
+    sumar(5,5)
 }
 
 fun alumnos() {
@@ -46,7 +48,7 @@ fun alumnos() {
     // println("${listaAlumnos.find { it.equals("Mateo", true) } ?: "No encontrado"}")
 
     val listaFiltrada = listaAlumnos.filter {it.length>8 }
-    if (listaFiltrada.size==0){
+    if (listaFiltrada.isEmpty()){
         println("Nadie cummple la condicion de busqueda ")
     }else {
         listaFiltrada.forEach { println(it) }
@@ -56,8 +58,8 @@ fun alumnos() {
 
 fun saludar(nombre: String = "Maria", veces: Int = 8) {
     // for(int i=0;i<veces;i++){}
-    for (item in 0..veces - 1) {
-        println("Hola $nombre, te voy a saludar")
+    for (item in 0..<veces) {
+        println("Hola $nombre, te voy a saludar, $item veces")
     }
 }
 
