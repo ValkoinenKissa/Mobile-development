@@ -2,55 +2,50 @@
 // fun nombre(argumentos):retorno{cuerpo}
 
 fun main() {
-    /*
+
     println("Primer programa en Kotlin")
     // complejos: Int, Double, Float, Boolean, Char, Byte
     // tipoMod nombre:Tipo = valor
     println("Por favor introduce tu nombre")
-    var nombre = readln()
+    val nombre = readln()
     println("Por favor introduce la edad")
-    var edad = readln().toInt()
+    val edad = readln().toInt()
     println(nombre)
-    val DNI = "123123123A"
+    val dni = "123123123A"
     println("Introduce el correo")
-    var correoE: String? = readlnOrNull()
+    val correoE: String? = readlnOrNull()
     // mi nombre es Borja, tengo 12 años y mi dni es 123123
-    println("Mi nombre es $nombre y tengo $edad años y mi dni es $DNI")
-    println("Mi correo es: ${correoE?.length ?: "sin definir" }")
-    */
+    println("Mi nombre es $nombre y tengo $edad años y mi dni es $dni")
+    println("Mi correo es: ${correoE?.length ?: "sin definir"}")
     // paramatros posicionales
     // parametros nominales
     // saludar()
     // sumar(5, 8)
     alumnos()
     saludar()
-    sumar(5,5)
+    sumar(5, 5)
 }
 
 fun alumnos() {
-    val listaAlumnos: ArrayList<String  > =
+    val listaAlumnos: ArrayList<String> =
         arrayListOf("Juan", "Mariaa", "Marta", "Carlos", "Borjaa")
     // alumno in 0..4
-    /*for (alumno in listaAlumnos ){
+    for (alumno in listaAlumnos) {
         println(alumno)
-    }*/
-    // listaAlumnos.forEach {println(it)}
-    /*
-    * for(int item : lista){ i }
-    * */
-    /*
+    }
+    listaAlumnos.forEach { println(it) }
+
     listaAlumnos.forEachIndexed { index, item ->
         if (index % 2 != 0) {
             println("El elemento en posicion $index es $item")
         }
-    }*/
-    // elemento cuyo nombre es Borja
-    // println("${listaAlumnos.find { it.equals("Mateo", true) } ?: "No encontrado"}")
+    }
+    println(listaAlumnos.find { it.equals("Mateo", true) } ?: "No encontrado")
 
-    val listaFiltrada = listaAlumnos.filter {it.length>8 }
-    if (listaFiltrada.isEmpty()){
+    val listaFiltrada = listaAlumnos.filter { it.length > 8 }
+    if (listaFiltrada.isEmpty()) {
         println("Nadie cummple la condicion de busqueda ")
-    }else {
+    } else {
         listaFiltrada.forEach { println(it) }
     }
 
