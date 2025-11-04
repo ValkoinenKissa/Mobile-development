@@ -1,4 +1,4 @@
-// public static void main (String[] args){}
+package exercises// public static void exercises.exercises.exercises.main (String[] args){}
 // fun nombre(argumentos):retorno{cuerpo}
 
 fun main() {
@@ -19,8 +19,8 @@ fun main() {
     println("Mi correo es: ${correoE?.length ?: "sin definir"}")
     // paramatros posicionales
     // parametros nominales
-    // saludar()
-    // sumar(5, 8)
+    // exercises.saludar()
+    // exercises.sumar(5, 8)
     alumnos()
     saludar()
     sumar(5, 5)
@@ -54,7 +54,7 @@ fun alumnos() {
 fun saludar(nombre: String = "Maria", veces: Int = 8) {
     // for(int i=0;i<veces;i++){}
     for (item in 0..<veces) {
-        println("Hola $nombre, te voy a saludar, $item veces")
+        println("Hola $nombre, te voy a exercises.saludar, $item veces")
     }
 }
 
