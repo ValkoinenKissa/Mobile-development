@@ -1,4 +1,6 @@
-package exercises/*
+package exercises
+
+/*
 Crea una función llamada calculadora que reciba dos números y una operación
 (como String: "suma", "resta", "multiplicacion", "division") y devuelva el resultado.
 Llama a la función usando parámetros nominales.
