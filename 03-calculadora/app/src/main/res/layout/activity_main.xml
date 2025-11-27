@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,243 +10,355 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFF"
         android:orientation="vertical"
         android:padding="16dp">
-
-        <!-- Pantalla de resultados -->
 
         <EditText
             android:id="@+id/display"
             android:layout_width="match_parent"
-            android:layout_weight="1"
             android:layout_height="0dp"
-            android:background="@null"
-            android:fontFamily="sans-serif"
+            android:layout_weight="1"
+            android:background="#FFFF"
             android:gravity="end|center"
+            android:importantForAutofill="no"
             android:inputType="numberDecimal"
-            android:labelFor="@+id/display"
             android:padding="16dp"
-            android:text="@string/result_number"
+            android:focusable="true"
+            android:importantForAccessibility="no"
+            android:labelFor="@+id/display"
             android:textSize="100sp" />
 
 
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#D2E2FB"
+                android:textColor="#0640A1"
+                android:text="@string/ac"
+                android:textSize="32sp"
+                android:gravity="center"
+                >
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/parentheses">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/percentage">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/split">
 
             </Button>
 
         </LinearLayout>
 
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/seven">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/eight">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/nine">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/multiplication">
 
             </Button>
 
         </LinearLayout>
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/four">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/five">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/six">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/minus">
 
             </Button>
 
         </LinearLayout>
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/one">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/two">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/three">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#C2E6FD"
+                android:textColor="#004873"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/plus">
 
             </Button>
 
         </LinearLayout>
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/number_zero">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                android:textColor="#1B1C1D"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/dot">
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:text="AC">
+                android:backgroundTint="#DBE2EA"
+                app:icon="@drawable/backspace"
+                app:iconGravity="textStart"
+                android:contentDescription="@string/borrar"
+                app:iconSize="40dp"
+                >
 
             </Button>
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="88dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="6dp"
-                android:backgroundTint="#6DD48B"
-                android:text="AC">
+                android:backgroundTint="#146C2F"
+                android:textColor="#FDFDFD"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:text="@string/equal"
+                >
 
             </Button>
 
         </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
     </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
