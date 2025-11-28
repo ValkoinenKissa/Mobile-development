@@ -24,4 +24,8 @@
     <string name="plus">+</string>
     <string name="number_zero">0</string>
     <string name="number_field">Campo</string>
+    <string name="square_root">√</string>
+    <string name="pi_button">π</string>
+    <string name="caret_button">^</string>
+    <string name="factorial_button">!</string>
 </resources>
