@@ -29,6 +29,7 @@
             android:importantForAccessibility="no"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
+            android:textColor="#000000"
             android:labelFor="@+id/calculator_display"
             android:padding="16dp"
             android:textSize="90sp" />
