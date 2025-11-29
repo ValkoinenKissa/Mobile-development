@@ -50,4 +50,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //Dependencia para el parser matematico
+    implementation(libs.mathparser.org.mxparser)
 }
