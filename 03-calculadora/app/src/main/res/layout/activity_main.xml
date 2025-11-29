@@ -357,6 +357,7 @@
                 app:iconGravity="textStart"
                 android:contentDescription="@string/borrar"
                 app:iconSize="40dp"
+                app:iconTint="#000000"
                 >
 
             </Button>

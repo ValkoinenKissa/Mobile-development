@@ -35,19 +35,20 @@
 
         <requestFocus />
 
+        <!-- FILA 1 -->
         <LinearLayout
-            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="6">
 
             <Button
                 android:id="@+id/seven_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/seven"
@@ -57,10 +58,10 @@
             <Button
                 android:id="@+id/eight_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/eight"
@@ -70,10 +71,10 @@
             <Button
                 android:id="@+id/nine_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/nine"
@@ -83,10 +84,10 @@
             <Button
                 android:id="@+id/ac_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#D2E2FB"
                 android:gravity="center"
                 android:text="@string/ac"
@@ -96,10 +97,10 @@
             <Button
                 android:id="@+id/multiplication_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/multiplication"
@@ -109,31 +110,31 @@
             <Button
                 android:id="@+id/square_root_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/square_root"
                 android:textColor="#004873"
                 android:textSize="15sp" />
-
         </LinearLayout>
 
+        <!-- FILA 2 -->
         <LinearLayout
-            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="6">
 
             <Button
                 android:id="@+id/four_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/four"
@@ -143,10 +144,10 @@
             <Button
                 android:id="@+id/five_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/five"
@@ -156,10 +157,10 @@
             <Button
                 android:id="@+id/six_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/six"
@@ -169,10 +170,10 @@
             <Button
                 android:id="@+id/parentheses_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/parentheses"
@@ -182,10 +183,10 @@
             <Button
                 android:id="@+id/minus_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/minus"
@@ -195,31 +196,31 @@
             <Button
                 android:id="@+id/pi_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/pi_button"
                 android:textColor="#004873"
                 android:textSize="15sp" />
-
         </LinearLayout>
 
+        <!-- FILA 3 -->
         <LinearLayout
-            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="6">
 
             <Button
                 android:id="@+id/one_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/one"
@@ -229,10 +230,10 @@
             <Button
                 android:id="@+id/two_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/two"
@@ -242,10 +243,10 @@
             <Button
                 android:id="@+id/three_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/three"
@@ -255,10 +256,10 @@
             <Button
                 android:id="@+id/percentage_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/percentage"
@@ -268,10 +269,10 @@
             <Button
                 android:id="@+id/plus_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/plus"
@@ -281,103 +282,108 @@
             <Button
                 android:id="@+id/caret_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/caret_button"
                 android:textColor="#004873"
                 android:textSize="15sp" />
-
         </LinearLayout>
 
+        <!-- FILA 4 -->
         <LinearLayout
-            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="6">
 
             <Button
                 android:id="@+id/zero_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/number_zero"
                 android:textColor="#1B1C1D"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/dot_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
                 android:gravity="center"
                 android:text="@string/dot"
                 android:textColor="#1B1C1D"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/delete_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#DBE2EA"
-                app:iconTint="#000000"
                 android:contentDescription="@string/borrar"
                 app:icon="@drawable/backspace"
                 app:iconGravity="textStart"
-                app:iconSize="15dp" />
+                app:iconSize="15dp"
+                app:iconTint="#000000"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/split_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/split"
                 android:textColor="#004873"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/factorial_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#C2E6FD"
                 android:gravity="center"
                 android:text="@string/factorial_button"
                 android:textColor="#004873"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/equal_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="135dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="6dp"
-                android:layout_marginEnd="6dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
                 android:backgroundTint="#146C2F"
                 android:gravity="center"
                 android:text="@string/equal"
                 android:textColor="#FDFDFD"
-                android:textSize="15sp" />
-
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
         <Space
