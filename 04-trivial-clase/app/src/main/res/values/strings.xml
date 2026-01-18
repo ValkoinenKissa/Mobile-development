@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TrivialClase</string>
+    <string name="comprar">Comprar</string>
+    <string name="imagen_recycler_description">Imagen recycler</string>
 </resources>
