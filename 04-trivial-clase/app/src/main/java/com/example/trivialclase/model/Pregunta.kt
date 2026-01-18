@@ -5,4 +5,5 @@ data class Pregunta(
     val difficulty: String,
     val category: String,
     val question: String,
+    val image: String
     )
